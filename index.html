@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Marco</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()" >SOBRE MI</a></li>
+                    <li><a href="#habilidades" onclick="seleccionar()" >HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#capacitaciones" onclick="seleccionar()" >CAPACITACIONES</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+
+
+
+        </header>
+    </div>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenidobanner">
+            <div class="contenedor-img">
+                <img src="img/yo.jpg" alt="">
+            </div>
+            <h1>Marco Andres Zerda</h1>
+            <h2>Est.Admin De Empresas</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola,soy Marco Zerda.</span>Me encuentro cursando la carrera de Administracion De Empresas en la Facultad de Ciencias Economicas,en U.N.T, en la provincia de San Miguel de Tucuman. Dedico normalmente mi tiempo a capacitarme sobre la carrera que elegí y en mis ratos libres busco realizar capacitaciones complementarias para poder desenvolverme de manera mas optima en el ambiente laboral y evitar sufrir perdidas de tiempo</p>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales
+                        <ul>
+                            <li>
+                                <strong>DNI</strong>
+                                40966194
+                            </li>
+                            <li>
+                                <strong>Nacionalidad</strong>
+                                Argentina
+                            </li>
+                            <li>
+                                <strong>Fecha Nacimimiento</strong>
+                                12-03-1998
+                            </li>
+                            <li>
+                                <strong>Teléfono</strong>
+                                381-5733246
+                            </li>
+                            <li>
+                                <strong>E-mail</strong>
+                                marcoszeerda@yahoo.com.ar
+                            </li>
+                            <li>
+                                <strong>Dirección</strong>
+                                Av.Jujuy 5000 M5 L29 Argentina-San Miguel de Tucuman
+                            </li>
+                            <li>
+                                <strong>Ocupación </strong>
+                                <span>Estudiante</span>
+                            </li>
+                        </ul>
+                    </h3>
+
+                </div>
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                    </div>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                </div>
+                <div class="contenedor-intereses">
+                    <div class="interes">
+                        <i class="fa-solid fa-book"></i>
+                        <span>CURSOS</span>
+                    </div>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-computer"></i>
+                            <span>ARMADO Y MANTENIMIENTO PC</span>
+                        </div>
+                        <div class="contenedor-intereses">
+                            <div class="interes">
+                                <i class="fa-solid fa-person-hiking"></i>
+                                <span>DEPORTES</span>
+            </div>
+        </div>
+
+    </section>
+    <!-- SECCION HABILIDADES -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Habilidades Técnicas -->
+                <div class="col">
+                    <h3>Habilidades Técnicas</h3>
+                    <div class="habilidades">
+                        <span>Excel </span>
+                    </div>
+                    <div class="habilidades">
+                        <span>Programación Básica </span>
+                    </div>
+                    <div class="habilidades">
+                        <span>Inglés Básico </span>
+                    </div>
+                    <div class="habilidades">
+                        <span>Portugués Básico </span>
+                    </div>
+                    <div class="habilidades">
+                        <span>World </span>
+                    </div>
+                </div>
+                <!-- Habilidades Profesionales -->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="habilidades">
+                        <span>Comunicación</span>
+                    </div>
+                    <div class="habilidades">
+                        <span>Trabajo en Equipo</span>
+                    </div>
+                    <div class="habilidades">
+                        <span>Creatividad</span>
+                    </div>
+                    <div class="habilidades">
+                        <span>Dedicación</span>
+                    </div>
+                    <div class="habilidades">
+                        <span>Adaptabilidad al puesto</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Lic.Administración de Empresas</h4>
+                        <span class="casa">U.N.T Ciencias Económicas</span>
+                        <span class="fecha">2016-actualidad</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div><div class="item izq">
+                        <h4>Argentina Programa #SeProgramar</h4>
+                        <span class="casa">Instituto Nacional de Tecnología Industrial</span>
+                        <span class="fecha">13/10/2022-08/02/2023</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Repositor en kiosco</h4>
+                        <span class="casa">Autoservicio Z</span>
+                        <span class="fecha">2013-2015</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div><div class="item der">
+                        <h4>Ayudante en marroquineria</h4>
+                        <span class="casa">Emprendimiento familiar</span>
+                        <span class="fecha">2017-Actualidad</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div><div class="item der">
+                        <h4>Ayudante en carpinteria</h4>
+                        <span class="casa">Emprendimiento familiar</span>
+                        <span class="fecha">2010-Actualidad</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CAPACITACIONES -->
+
+    <section id="capacitaciones" class="capacitaciones">
+        <div class="contenido-seccion">
+            <h2>CAPACITACIONES</h2>
+            <div class="galeria">
+                <div class="certificadoss">
+                    <img src="img/ExcelBasico.jpeg"  width="700px" alt="no se pudo cargar la imagen">
+                    <div class="overlay">
+                        <h3>Excel Básico</h3>
+                    </div>
+                </div>
+                <div class="certificadoss">
+                    <img src="img/ExcelIntermedio.jpeg" width="700px" alt="no se pudo cargar la imagen">
+                    <div class="overlay">
+                        <h3>Excel Intermedio</h3>
+                    </div>
+                </div>
+                <div class="certificadoss">
+                    <img src="img/ExcelAvanzado.jpeg" width="700px"  alt="no se pudo cargar la imagen">
+                    <div class="overlay">
+                        <h3>Excel Avanzado(Funciones)</h3>
+                    </div>
+                    <div class="certificadoss">
+                        <img src="img/SeProgramar.png"  width="700px" alt="no se pudo cargar la imagen">
+                        <div class="overlay">
+                            <h3>SeProgramar</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
